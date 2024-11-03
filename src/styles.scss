@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(0.25turn, #03fc39, #0335fc);
+    animation: gradient-rotate 5s infinite linear;
+}
+
+@keyframes gradient-rotate {
+    0% {
+        background: linear-gradient(0.25turn, #03fc39, #0335fc);
+    }
+    50% {
+        background: linear-gradient(1.25turn, #03fc39, #0335fc);
+    }
+    100% {
+        background: linear-gradient(0.25turn, #03fc39, #0335fc);
+    }
+}

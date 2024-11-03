@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.converter {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, #ffffff, #f0f4f8);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+
+    h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 1.8em;
+        font-weight: 700;
+    }
+
+    input[type='number'] {
+        width: 99%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 18px;
+        margin-bottom: 15px;
+        background-color: #fff;
+        transition:
+            border 0.3s,
+            box-shadow 0.3s;
+
+        &:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            outline: none;
+        }
+    }
+
+    select {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 18px;
+        margin-bottom: 15px;
+        background-color: #fff;
+        transition:
+            border 0.3s,
+            box-shadow 0.3s;
+
+        &:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            outline: none;
+        }
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition:
+            background-color 0.3s,
+            transform 0.2s;
+        margin-bottom: 20px;
+
+        &:hover {
+            background-color: #0056b3;
+            transform: translateY(-1px);
+        }
+
+        &:active {
+            background-color: #004494;
+            transform: translateY(1px);
+        }
+    }
+
+    h2 {
+        text-align: center;
+        color: #28a745;
+        margin-top: 25px;
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    span {
+        display: inline-block;
+        text-align: center;
+        margin: 15px 0;
+        font-size: 1.2em;
+        color: #555;
+    }
+}
